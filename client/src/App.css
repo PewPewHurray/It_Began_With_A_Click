@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.locationDiv {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+}
+
+.location{
+  border: 1px solid black;
+  margin: 10px 0px;
+  padding: 0px 10px 20px;
+}
+
+.location > *{
+  padding: 0px;
+  margin: 0px;
+}

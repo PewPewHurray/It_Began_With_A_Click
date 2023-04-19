@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .App {
   text-align: center;
 }
@@ -5,16 +10,42 @@
 .locationDiv {
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .location{
   border: 1px solid black;
+  border-radius:11px;
   margin: 10px 0px;
   padding: 0px 10px 20px;
 }
 
-.location > *{
-  padding: 0px;
-  margin: 0px;
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 5px;
+  border-bottom: 2px solid black;
+}
+
+.headerDiv p {
+  font-weight: bold;
+}
+
+.locationBtn{
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.goldDiv {
+  display: flex;
+  padding-top: 13px;
+}
+
+.goldDiv > *{
+  padding-right: 5px;
+}
+
+.locationImg{
+  border-radius: 11px;
 }

@@ -38,10 +38,10 @@ const Location = (props) => {
     return(
         <div className="location">
             <h2>{name}</h2>
-            <img src={img} width="100" height="100" />
-            <p>{gold[0]} - {gold[1]}</p>
+            <img className="locationImg" src={img} width="100" height="100" />
+            <p>({gold[0]} - {gold[1]}) Gold</p>
             <form onSubmit={onSubmitHandler}>
-                <input type="submit" value="Click"/>
+                <input className="locationBtn" type="submit" value="Click"/>
             </form>
         </div>
     )

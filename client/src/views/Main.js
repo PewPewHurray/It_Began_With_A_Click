@@ -5,7 +5,11 @@ const Main = props => {
     return(
         <div>
             <div className="headerDiv">
-                <h1>Welcom</h1>
+                <h1>Welcome</h1>
+                <div className="goldDiv">
+                    <p>Gold:</p>
+                    <p>800</p>
+                </div>
             </div>
             <div className="locationDiv">
                 <Location name={"House"} gold={[3,5]}/>
